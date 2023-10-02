@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color: gray;
+  font-family: cursive;
+  margin: unset;
+}
+
+.banner {
+  background-image: url("images/background\ img.png");
+  /* background-repeat: no-repeat; */
+
+  background-size: contain;
+  height: 17em;
+}
+
+.main-section {
+  width: 90%;
+  margin: auto;
+}
+
+thead {
+  font-size: x-large;
+}
+
+td {
+  font-size: large;
+  padding-bottom: 2em;
+}
+
+th {
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+tr:hover {
+  color: rgb(241, 16, 16);
+}
+
+.song-num {
+  width: 70px;
+  border-bottom: 5px solid grey;
+}
+
+.song-name {
+  width: 400px;
+  border-bottom: 5px solid grey;
+}
+
+.song-artist {
+  width: 300px;
+  border-bottom: 5px solid grey;
+}
+
+.song-duration {
+  width: 200px;
+  border-bottom: 5px solid grey;
+}
+
+.control img {
+  width: 10em;
+  margin-bottom: 5em;
+  margin-top: 2em;
+}
+
+/*.highlight{
+    color:rgb(241, 16, 16) ;
+}*/

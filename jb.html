@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam Boxx</title>
+    <link rel="stylesheet" href="jb.css">
+    <link rel="shortcut icon" href="images/jamboxx-logo3.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="left_banner">
+            
+            <div class="heading">
+
+                <p style=" color: sandybrown; font-size: xxx-large; padding-top: 4em;">...enjoy our best collection...
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div>
+            <h1 style="color: aqua; 
+                margin-left:auto;
+                font-size: xxx-large;">JAM BOXX
+            </h1>
+        </div>
+                <div  class="control" onclick="playaudio()" id="play-pause">
+                    <img class="button-controls"  src="images/pause-button.png" alt="">
+                </div>
+                <audio id="song"></audio>
+            
+       
+        <table>
+            <thead>
+                <th class="song-num">#</th>
+                <th class="song-name">Title</th>
+                <th class="song-artist">Artist</th>
+                <th class="song-duration">Duration</th>
+            </thead>
+
+            <tr id="song1" onclick="playall(1)">
+                <td>1.</td>
+                <td>Kahani Suno</td>
+                <td>Kaifi Khalil</td>
+                <td>02:53</td>
+            </tr>
+            <tr id="song2" onclick="playall(2)">
+                <td>2.</td>
+                <td>Kesariya</td>
+                <td>Arijit Singh</td>
+                <td>04:28</td>
+            </tr>
+            <tr id="song3" onclick="playall(3)">
+                <td>3.</td>
+                <td>Mann Meri Jaan</td>
+                <td>King</td>
+                <td>03:14</td>
+            </tr >
+            <tr id="song4" onclick="playall(4)">
+                <td>4.</td>
+                <td>Bhool Bhulaiyaa 2</td>
+                <td>Pritam</td>
+                <td>03:31</td>
+            </tr>
+            <tr id="song5" onclick="playall(5)">
+                <td>5.</td>
+                <td>Halamithi Habibo</td>
+                <td>Anirudh</td>
+                <td>04:39</td>
+            </tr>
+            <tr id="song6" onclick="playall(6)">
+                <td>6.</td>
+                <td>Show Me The Thumka</td>
+                <td>Pritam</td>
+                <td>03:56</td>
+            </tr>
+            <tr id="song7" onclick="playall(7)">
+                <td>7.</td>
+                <td>Bandeya Re Bandeya</td>
+                <td>Arijit Singh</td>
+                <td>04:35</td>
+            </tr >
+            <tr id="song8" onclick="playall(8)">
+                <td>8.</td>
+                <td>Daku</td>
+                <td>Inderpal Moga</td> 
+                <td>02:14</td>
+            </tr>
+            <tr id="song9" onclick="playall(9)">
+                <td>9.</td>
+                <td>Let Me Down Slowly</td>
+                <td>Alec Benjamin</td>
+                <td>02:56</td>
+            </tr>
+            <tr id="song10" onclick="playall(10)">
+                <td>10.</td>
+                <td>Phir Aur Kya Chahiye</td>
+                <td>Arijit Singh</td>
+                <td>03:30</td>
+            </tr>
+           
+        </table>
+    </div>
+    <!-- <div class="social-contacts">
+        
+        <table border="1" width="50%">
+            <tr>
+                <th>NAME</th> 
+                <th>EMAIL</th>
+            </tr>
+            
+            <tr >
+                <td rowspan="2">Akash Kumar</td> 
+                <td>imakash2202@gmail.com</td>
+            </tr>
+            
+            <tr>
+                 
+                <td>imakash2209@gmail.com</td>
+            </tr>
+            
+            </table>
+    </div> -->
+    <script src="jb.js"></script>
+
+</body>
+
+</html>
